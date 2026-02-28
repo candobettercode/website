@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #1e293b;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #3b82f6;
+}
+
+nav a {
+    color: #e2e8f0;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 220px;
+    padding: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.sidebar a {
+    display: block;
+    color: #e2e8f0;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #3b82f6;
+}
+
+.content {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+pre {
+    background: #111827;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.diagram {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.grid-2 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+    margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
